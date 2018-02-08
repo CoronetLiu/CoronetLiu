@@ -1,0 +1,53 @@
+/*
+* @Author:  CoronetLiu
+* @Date:    2018-02-08 09:27:09
+* @Last Modified by:    CoronetLiu
+* @Last Modified time:  2018-02-08 09:29:51
+* @Email:   liu86931@163.com
+*/
+
+
+/* reset */
+*{
+    margin:0;
+    padding:0;
+}
+ul,ol,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+image{
+    border:none;
+}
+
+#header{
+    background-color: #159957;
+    background-image: linear-gradient(120deg, #155799, #159957);
+}
+.header-inner,.main-inner,.footer-inner{
+    width:1200px;
+    margin:0 auto;
+}
+
+/* header */
+#nav{
+    overflow:hidden;
+}
+#nav li{
+    float:left;
+    width:150px;
+    height:50px;
+    line-height: 50px;
+    padding:0 10px;
+    text-align: center;
+    font-size: 18px;
+    color:#fff;
+}
+#nav .motto{
+    float:right;
+    height:50px;
+    line-height:50px;
+    width:200px;
+}
