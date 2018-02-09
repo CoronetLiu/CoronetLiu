@@ -2,12 +2,15 @@
 * @Author:  CoronetLiu
 * @Date:    2018-02-08 09:27:09
 * @Last Modified by:    CoronetLiu
-* @Last Modified time:  2018-02-08 09:29:51
+* @Last Modified time:  2018-02-09 14:22:31
 * @Email:   liu86931@163.com
 */
 
 
 /* reset */
+html,body{
+    background: #ccc;
+}
 *{
     margin:0;
     padding:0;
@@ -32,22 +35,6 @@ image{
 }
 
 /* header */
-#nav{
-    overflow:hidden;
-}
-#nav li{
-    float:left;
-    width:150px;
-    height:50px;
-    line-height: 50px;
-    padding:0 10px;
-    text-align: center;
-    font-size: 18px;
-    color:#fff;
-}
-#nav .motto{
-    float:right;
-    height:50px;
-    line-height:50px;
-    width:200px;
+.header-inner{
+
 }
