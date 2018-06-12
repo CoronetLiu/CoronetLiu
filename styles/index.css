@@ -36,8 +36,7 @@ image{
 
 #audio-wrapper{
     float:right;
-    margin:10px;
-    height:20px;
+    margin:12px;
     width:25px;
     height:25px;
     position:relative;
@@ -47,6 +46,7 @@ image{
     left:0;top:0;
     height:100%;
     width:100%;
+    border-radius: 50%;
     background:url('../resource/images/play.png') center center no-repeat;
     background-size: cover;
     cursor:pointer;
