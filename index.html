@@ -4,19 +4,19 @@
     <meta charset="UTF-8" />
     <title>CoronetLiu</title>
     <link rel="shortcut icon" type="images/x-icon" href="favicon.ico"/>
-    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="./styles/index.css"/>
     <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/layer/3.1.0/layer.js"></script>
+    <link href="https://cdn.bootcss.com/layer/3.1.0/theme/default/layer.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="./styles/index.css"/>
 </head>
 <body>
 <header id="header">
-    <audio autoloop loop autoplay>
-        <source src="./resource/Various Artists - ABV-SARVAR.mp3">
-        <object type="audio/mp3" width="290" height="45">
-            <param name="autoStart" value="0">
-            <p><a href="./resource/Various Artists - ABV-SARVAR.mp3">Download</a></p>
-        </object>
-    </audio>
+    <div id="audio-wrapper">
+        <audio id="audio" autoloop loop autoplay>
+            <source src="./resource/peaceful.mp3" type="audio/mp3">
+        </audio>
+        <div id="control" data-id="on"></div>
+    </div>
     <div class="header-inner">
 
     </div>
@@ -33,6 +33,5 @@
 </footer><!-- /footer -->
 
 </body>
-<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script type="text/javascript" src="./javascripts/index.js"></script>
 </html>

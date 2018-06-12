@@ -1,15 +1,11 @@
 /*
-* @Author:  CoronetLiu
-* @Date:    2018-02-08 09:27:09
-* @Last Modified by:    CoronetLiu
-* @Last Modified time:  2018-02-09 14:22:31
-* @Email:   liu86931@163.com
+* Author: CoronetLiu   2018/6/12
 */
 
 
 /* reset */
 html,body{
-    background: #ccc;
+    background: #f2f2f2;
 }
 *{
     margin:0;
@@ -26,8 +22,10 @@ image{
 }
 
 #header{
-    background-color: #159957;
-    background-image: linear-gradient(120deg, #155799, #159957);
+    background: -webkit-linear-gradient(135deg, #0ceeea, #585ddb, #9d08e8);
+    background: -o-linear-gradient(135deg, #0ceeea, #585ddb, #9d08e8);
+    background: -moz-linear-gradient(135deg, #0ceeea, #585ddb, #9d08e8);
+    background: linear-gradient(135deg, #0ceeea, #585ddb, #9d08e8);
 }
 .header-inner,.main-inner,.footer-inner{
     width:1200px;
@@ -35,6 +33,25 @@ image{
 }
 
 /* header */
-.header-inner{
 
+#audio-wrapper{
+    float:right;
+    margin:10px;
+    height:20px;
+    width:25px;
+    height:25px;
+    position:relative;
+}
+#control{
+    position:absolute;
+    left:0;top:0;
+    height:100%;
+    width:100%;
+    background:url('../resource/images/play.png') center center no-repeat;
+    background-size: cover;
+    cursor:pointer;
+}
+
+.header-inner{
+    height:50px;
 }
