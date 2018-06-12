@@ -28,7 +28,7 @@ image{
     background: linear-gradient(135deg, #0ceeea, #585ddb, #9d08e8);
 }
 .header-inner,.main-inner,.footer-inner{
-    width:1200px;
+    width:90%;
     margin:0 auto;
 }
 
