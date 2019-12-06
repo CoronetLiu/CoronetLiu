@@ -2,56 +2,65 @@
 * Author: CoronetLiu   2018/6/12
 */
 
-
-/* reset */
-html,body{
-    background: #f2f2f2;
-}
-*{
-    margin:0;
-    padding:0;
-}
-ul,ol,li{
-    list-style: none;
-}
-a{
-    text-decoration: none;
-}
-image{
-    border:none;
+html, body {
+  background: -webkit-linear-gradient(135deg, #95efea, #eff090);
+  background: -o-linear-gradient(135deg, #95efea, #eff090);
+  background: -moz-linear-gradient(135deg, #95efea, #eff090);
+  background: linear-gradient(135deg, #95efea, #eff090);
 }
 
-#header{
-    background: -webkit-linear-gradient(135deg, #0ceeea, #585ddb, #9d08e8);
-    background: -o-linear-gradient(135deg, #0ceeea, #585ddb, #9d08e8);
-    background: -moz-linear-gradient(135deg, #0ceeea, #585ddb, #9d08e8);
-    background: linear-gradient(135deg, #0ceeea, #585ddb, #9d08e8);
-}
-.header-inner,.main-inner,.footer-inner{
-    width:90%;
-    margin:0 auto;
+#header {
+  height: 50px;
+  background: linear-gradient(135deg, #68fffd, #7277f3, #bb59ec);
+  position: relative;
 }
 
 /* header */
 
-#audio-wrapper{
-    float:right;
-    margin:15px;
-    width:20px;
-    height:20px;
-    position:relative;
-}
-#control{
-    position:absolute;
-    left:0;top:0;
-    height:100%;
-    width:100%;
-    border-radius: 50%;
-    background:url('../resource/images/play.png') center center no-repeat;
-    background-size: cover;
-    cursor:pointer;
+#header .header-inner {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
-.header-inner{
-    height:50px;
+#header #audio-wrapper {
+  float: right;
+  margin: 15px;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  z-index: 10;
+}
+
+#header #control {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  background: url('../resource/images/play.png') center center no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
+#header .header-inner {
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+
+/* main */
+
+#main .main-inner {
+  min-height: 100px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
