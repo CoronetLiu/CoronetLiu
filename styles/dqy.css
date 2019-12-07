@@ -25,6 +25,10 @@ html, body {
   -ms-transform: rotateX(35deg) rotateY(-45deg) scaleZ(1);
   -o-transform: rotateX(35deg) rotateY(-45deg) scaleZ(1);
   transform: rotateX(35deg) rotateY(-45deg) scaleZ(1);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
   transition: all 1s ease;
 }
 
