@@ -81,7 +81,7 @@ html, body {
   -ms-transform: translateX(-0.5rem) translateY(-0.5rem) translateZ(1rem);
   -o-transform: translateX(-0.5rem) translateY(-0.5rem) translateZ(1rem);
   transform: translateX(-0.5rem) translateY(-0.5rem) translateZ(1rem);
-  background: url("../resource/images/dqy/dqy_3.jpg") center center no-repeat;
+  background: url("../resource/images/dqy/dqy_2.jpg") center center no-repeat;
   background-size: cover;
 }
 
@@ -91,7 +91,7 @@ html, body {
   -ms-transform: translateX(0.5rem) translateY(-0.5rem) rotateY(90deg);
   -o-transform: translateX(0.5rem) translateY(-0.5rem) rotateY(90deg);
   transform: translateX(0.5rem) translateY(-0.5rem) rotateY(90deg);
-  background: url("../resource/images/dqy/dqy_2.jpg") center center no-repeat;
+  background: url("../resource/images/dqy/dqy_3.jpg") center center no-repeat;
   background-size: cover;
 }
 
@@ -151,7 +151,7 @@ html, body {
   -ms-transform: translateX(-1.5rem) translateY(-1.5rem) translateZ(2rem);
   -o-transform: translateX(-1.5rem) translateY(-1.5rem) translateZ(2rem);
   transform: translateX(-1.5rem) translateY(-1.5rem) translateZ(2rem);
-  background: url("../resource/images/dqy/dqy_3.jpg") center center no-repeat;
+  background: url("../resource/images/dqy/dqy_2.jpg") center center no-repeat;
   background-size: cover;
 }
 
@@ -161,7 +161,7 @@ html, body {
   -ms-transform: translateX(-1.5rem) translateY(-1.5rem) translateZ(5rem);
   -o-transform: translateX(-1.5rem) translateY(-1.5rem) translateZ(5rem);
   transform: translateX(-1.5rem) translateY(-1.5rem) translateZ(5rem);
-  background: url("../resource/images/dqy/dqy_3.jpg") center center no-repeat;
+  background: url("../resource/images/dqy/dqy_2.jpg") center center no-repeat;
   background-size: cover;
 }
 
@@ -171,7 +171,7 @@ html, body {
   -ms-transform: translateX(0.5rem) translateY(-1.5rem) rotateY(90deg);
   -o-transform: translateX(0.5rem) translateY(-1.5rem) rotateY(90deg);
   transform: translateX(0.5rem) translateY(-1.5rem) rotateY(90deg);
-  background: url("../resource/images/dqy/dqy_2.jpg") center center no-repeat;
+  background: url("../resource/images/dqy/dqy_3.jpg") center center no-repeat;
   background-size: cover;
 }
 
@@ -181,7 +181,7 @@ html, body {
   -ms-transform: translateX(3.5rem) translateY(-1.5rem) rotateY(90deg);
   -o-transform: translateX(3.5rem) translateY(-1.5rem) rotateY(90deg);
   transform: translateX(3.5rem) translateY(-1.5rem) rotateY(90deg);
-  background: url("../resource/images/dqy/dqy_2.jpg") center center no-repeat;
+  background: url("../resource/images/dqy/dqy_3.jpg") center center no-repeat;
   background-size: cover;
 }
 
