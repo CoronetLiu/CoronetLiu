@@ -16,4 +16,4 @@ setInterval(function() {
       $($('.outer')[i]).addClass('active');
     }
   }
-}, 2000);
+}, 1500);
